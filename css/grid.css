@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+  h1 {
+    font-family: Helvetica;
+  }
+  .container {
+    background-color: black;
+      border:10px solid black;
+      display: grid;
+      grid-template-columns: repeat(23, 1fr);
+      grid-gap: 5px;
+      grid-template-rows: repeat(21, 1fr);
+      width: 80vw;
+      height: 100vh;
+      margin: 5em 5em 5em 5em;
+    }
+  
+  .one {
+    background-color:white;
+    grid-row: 1/ span 3;
+ }
+  .two { 
+    background-color:white;
+    grid-column: 2 / span 9;
+  }
+  .three {
+    background-color:white;
+    grid-column: 11 / span 11;
+  }
+ 
+ .four{
+   background-color:#0f036c;
+   grid-area: 2 / 2 / 4 / 11 ;
+ }
+ .five{
+   grid-area: 4 / 1 / span 10 /1;
+ }
+ .six{
+  background-color:white;
+  grid-area: 14 / 1 /span 6 / 1 ;
+ }
+.seven{
+  background-color:white;
+  grid-area: 20 / 1 / span 2 / span 5;
+}
+.eight{
+  background-color: #c80707;
+  grid-area: 14 / 2 / span 6 / span 3;
+}
+.nine{
+  background-color:white;
+  grid-area: 2 / 11 / span 2 / span 4;
+}
+.ten{
+  background-color:#0f036c;
+  grid-area: 2 / 15 / span 2 /span 7;
+}
+.eleven{
+  background-color:white;
+  grid-area: 1 / 22 / span 10 / span 1;
+}
+.twelve{
+  background-color: #efbc0e;
+  grid-area: 1 / 23 / span 10 / 23;
+}
+.thirteen{
+  background-color:white;
+  grid-area: 4 / 2 / span 10 / span 3;
+}
+.fourteen{
+  background-color:white;
+  grid-area: 4 / 6 / span 7 / span 4;
+}
+.fifteen{
+  background-color:white;
+  grid-area: 4 / 10 / span 7 / 10;
+}
+.sixteen{
+  background-color: #efbc0e;
+  grid-area: 11 / 6 / span 3 / 6;
+}
+.seventeen{
+  background-color: #efbc0e;
+  grid-area: 14 / 6 / span 8 / 6;
+}
+.neinteen{
+  background-color: #c80707;
+  grid-area: 11 / 7 / span 3 / span 4;
+}
+.twenty{
+  background-color: #efbc0e;
+  grid-area: 4 / 11 / span 7 / span 4;
+}
+.twenty-one{
+  background-color: #c80707;
+  grid-area: 4 / 15 / span 7 / span 6;
+}
+.twenty-two{
+  background-color: #c80707;
+  grid-area: 4 / 21 / span 7 /span 1;
+}
+.twenty-three{
+  background-color:#0f036c;
+  grid-area: 11 / 11 / span 3 / span 4;
+}
+.twenty-for{
+  background-color:white;
+  grid-area: 11/ 15 / span 3 / span 6;
+}
+.twenty-five{
+  background-color:white;
+  grid-area: 11 / 21 / span 3 /span 1;
+}
+.twenti-six{
+  background-color:white;
+  grid-area: 14 / 7 /span 5 /span 7;
+}
+.twenty-seven{
+  background-color: white;
+  grid-area:  14 / 14 /span 5 / span 4;
+}
+.twentyfive{
+  background-color:#0f036c;
+  grid-area: 14 / 18 / span 5 /span 3;
+}
+.twentysix{
+  background-color:#efbc0e;
+  grid-area: 14 / 21 / span 5 / span 1;
+}
+.twentyseven{
+  background-color: white;
+  grid-area: 14 / 22 / span 5 / span 2;
+}
+.twentyeight{
+  background-color: #c80707;
+  grid-area: 19 / 7 / span 3 / span 4;
+}
+.twentynine{
+  background-color: white;
+  grid-area: 19 / 18 /span 3 / span 6;
+}
